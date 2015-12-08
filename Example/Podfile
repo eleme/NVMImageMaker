@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NVMImageMaker_Example', :exclusive => true do
+  pod "NVMImageMaker", :path => "../"
+end
+
+target 'NVMImageMaker_Tests', :exclusive => true do
+  pod "NVMImageMaker", :path => "../"
+
+  
+end
