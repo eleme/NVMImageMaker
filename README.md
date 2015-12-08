@@ -7,9 +7,17 @@
 
 ## Usage
 
+API for chaining image drawing codes:
+
+```
+UIImage *image = nvm_beginImage(size).fillColor(fillColor).borderColor(borderColor).cornerRadius(20).opacity(0.5).make;
+```
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 7
 
 ## Installation
 
@@ -22,8 +30,9 @@ pod "NVMImageMaker"
 
 ## Author
 
-axl411, axl411511@live.com
+Chao Gu, chao.gush@ele.me
 
 ## License
 
 NVMImageMaker is available under the MIT license. See the LICENSE file for more info.
+

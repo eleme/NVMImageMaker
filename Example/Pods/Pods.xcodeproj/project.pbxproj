@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2110808CF68F357815E6CBB47D10CC43 /* NVMImageMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499DF43317DD01B89CF204B10BBED20 /* NVMImageMaker.m */; };
+		31E165E0350DB61BF39848912B58CB88 /* Pods-NVMImageMaker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7EC8412A61E19C3C7B28AA9CD19D8 /* Pods-NVMImageMaker_Tests-dummy.m */; };
+		3ABAB6BAAD5E4E1207954397524DC328 /* Pods-NVMImageMaker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B00E7BE44A18F54F315608D1470CE4E /* Pods-NVMImageMaker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4505AAC0CC54A22FEF1C005373F33CC5 /* NVMImageMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737583F54010EEFAAB481B77466F1D01 /* NVMImageMaker-dummy.m */; };
+		4AB0D0B38C5B18B42B51E5311815B66B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		73D319ECB665BA011046DC9DC28556AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9E558583BA1B795F2D79B762A02B98E7 /* NVMImageMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9484D418ED4EC581F5CDD92D84DA3581 /* NVMImageMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB47687DE70276D45DFC54DE4A93918F /* NVMImageMaker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2FAFB6BF225DCDFAF267276B6D279C8 /* NVMImageMaker.bundle */; };
+		C03D29D6A7A78196DA4D5C471676AFFC /* Pods-NVMImageMaker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E228480A22D4B30F281F3CE8C3100F6 /* Pods-NVMImageMaker_Example-dummy.m */; };
+		C1919980258215EBC79E4C37377E36C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DAA709D3DC6CB0A77F60ECB05D8540D9 /* Pods-NVMImageMaker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 101BAE1FD3EF77CBDCBE1BEDE0B79BB1 /* Pods-NVMImageMaker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7BD1C8DCB8E5EECF603D51EBB0C8A3 /* NVMImageMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 705F3AF0714142059054760EDA89D04D /* NVMImageMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B36DFDF4375082ED8A25F2A011CC3D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE42997DAEBFAD1EC0208059FCEA864;
+			remoteInfo = "NVMImageMaker-NVMImageMaker";
+		};
+		57E756EED39B13D48C2E3AEE775A69AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 069A364D95B94CE2AB0A8A4E380DB184;
+			remoteInfo = NVMImageMaker;
+		};
+		B1784D7B2914DF9B1B9B4936403C91B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 069A364D95B94CE2AB0A8A4E380DB184;
+			remoteInfo = NVMImageMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097DB1B2C34A79D8458C0259C8C9A575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101BAE1FD3EF77CBDCBE1BEDE0B79BB1 /* Pods-NVMImageMaker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVMImageMaker_Example-umbrella.h"; sourceTree = "<group>"; };
+		1037CEBD1E41829C543AB5BEF7EE4545 /* Pods-NVMImageMaker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NVMImageMaker_Example.modulemap"; sourceTree = "<group>"; };
+		1CFDE4FBC4AE3988DD642C219E3ECE16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC56BF24D7B8446336B583E22456A69 /* Pods-NVMImageMaker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVMImageMaker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F1883EE739C1B4DCE0CA45C3F40E3A0 /* Pods-NVMImageMaker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVMImageMaker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40941980F22A8C996F529D09262BA390 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443A0AA8555C8C5A3BCB70F1BF87A013 /* Pods-NVMImageMaker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVMImageMaker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA7EC8412A61E19C3C7B28AA9CD19D8 /* Pods-NVMImageMaker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVMImageMaker_Tests-dummy.m"; sourceTree = "<group>"; };
+		5D328A26EB176E690A78DC92FCD7CEC7 /* NVMImageMaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVMImageMaker-prefix.pch"; sourceTree = "<group>"; };
+		5D466F6889492B1121C0E799310CFB51 /* Pods-NVMImageMaker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NVMImageMaker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6436D2C0D5D4076C19D0A705B1AF0CD7 /* NVMImageMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVMImageMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D537D0844A33EDF234184CB939BDDD /* Pods-NVMImageMaker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NVMImageMaker_Example-resources.sh"; sourceTree = "<group>"; };
+		6B00E7BE44A18F54F315608D1470CE4E /* Pods-NVMImageMaker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVMImageMaker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6E228480A22D4B30F281F3CE8C3100F6 /* Pods-NVMImageMaker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVMImageMaker_Example-dummy.m"; sourceTree = "<group>"; };
+		705F3AF0714142059054760EDA89D04D /* NVMImageMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NVMImageMaker.h; sourceTree = "<group>"; };
+		72E5C13C4D6E28A5B77A15AD98BDEDA5 /* Pods-NVMImageMaker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVMImageMaker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		737583F54010EEFAAB481B77466F1D01 /* NVMImageMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVMImageMaker-dummy.m"; sourceTree = "<group>"; };
+		74B9C5CA980B0F02FF95BB8EE9FCD0CA /* Pods-NVMImageMaker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVMImageMaker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80A0C1448267E5AAAB2C38B01C9E83FC /* Pods_NVMImageMaker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVMImageMaker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9042AC14C3717F4757CB247588E8DD13 /* Pods-NVMImageMaker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NVMImageMaker_Tests-resources.sh"; sourceTree = "<group>"; };
+		9484D418ED4EC581F5CDD92D84DA3581 /* NVMImageMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVMImageMaker-umbrella.h"; sourceTree = "<group>"; };
+		9499DF43317DD01B89CF204B10BBED20 /* NVMImageMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NVMImageMaker.m; sourceTree = "<group>"; };
+		9CF6C54340B3CB6B7EA2BF68A766FBD3 /* NVMImageMaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVMImageMaker.xcconfig; sourceTree = "<group>"; };
+		A20C3215EA5A764B502FCBA5F34CCA7A /* Pods-NVMImageMaker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NVMImageMaker_Tests.modulemap"; sourceTree = "<group>"; };
+		B2FAFB6BF225DCDFAF267276B6D279C8 /* NVMImageMaker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVMImageMaker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE60F7ADECBBF6AFD9BA0BE89B04A5 /* Pods_NVMImageMaker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVMImageMaker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AB6C1E8466849ED2CDF2A6F7241427 /* Pods-NVMImageMaker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NVMImageMaker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2499751F194D3615A3251CC0F4EC51A /* NVMImageMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NVMImageMaker.modulemap; sourceTree = "<group>"; };
+		D21BA4A30A6C5495F82E2DEEE4150B65 /* Pods-NVMImageMaker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVMImageMaker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E42EE600B0D2FA913561FB670EE86385 /* Pods-NVMImageMaker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVMImageMaker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7162CA6CDC4F225FD14FE8E95171505 /* Pods-NVMImageMaker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVMImageMaker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2544721B95213DDC855B7F93DABC6E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329642E39123F45523B45BE120E541AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D319ECB665BA011046DC9DC28556AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0A0F85F38A3EBB69843E650FD67C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB0D0B38C5B18B42B51E5311815B66B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78D81B655FF527BC6C9763F09F18893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1919980258215EBC79E4C37377E36C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6BD98DD8A8F444D94A5F5099AEE185 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A22D8E6D316721FFB0F4FE8685C55D4C /* NVMImageMaker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F2D2B5A28F7A954EA01078825EEB615 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB4A44A62C2068C4780636BFDCC1A335 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6F9F7CFC6FAF622B2ABE091FDA60B6F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				097DB1B2C34A79D8458C0259C8C9A575 /* Info.plist */,
+				C2499751F194D3615A3251CC0F4EC51A /* NVMImageMaker.modulemap */,
+				9CF6C54340B3CB6B7EA2BF68A766FBD3 /* NVMImageMaker.xcconfig */,
+				737583F54010EEFAAB481B77466F1D01 /* NVMImageMaker-dummy.m */,
+				5D328A26EB176E690A78DC92FCD7CEC7 /* NVMImageMaker-prefix.pch */,
+				9484D418ED4EC581F5CDD92D84DA3581 /* NVMImageMaker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NVMImageMaker";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1C6BD98DD8A8F444D94A5F5099AEE185 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E99A7EBD400D9CE3A38EB3CC8DDD4BF3 /* Products */,
+				9E6722A18C9BF2D13B92E90D36F4D7A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E6722A18C9BF2D13B92E90D36F4D7A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA2778DF1B8102BDF4D2FC7AC5534916 /* Pods-NVMImageMaker_Example */,
+				C293424EF4FB0482610E32CB1FA2EC36 /* Pods-NVMImageMaker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A22D8E6D316721FFB0F4FE8685C55D4C /* NVMImageMaker */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D2B5A28F7A954EA01078825EEB615 /* Pod */,
+				6F9F7CFC6FAF622B2ABE091FDA60B6F9 /* Support Files */,
+			);
+			name = NVMImageMaker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA2778DF1B8102BDF4D2FC7AC5534916 /* Pods-NVMImageMaker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				40941980F22A8C996F529D09262BA390 /* Info.plist */,
+				1037CEBD1E41829C543AB5BEF7EE4545 /* Pods-NVMImageMaker_Example.modulemap */,
+				3AC56BF24D7B8446336B583E22456A69 /* Pods-NVMImageMaker_Example-acknowledgements.markdown */,
+				E42EE600B0D2FA913561FB670EE86385 /* Pods-NVMImageMaker_Example-acknowledgements.plist */,
+				6E228480A22D4B30F281F3CE8C3100F6 /* Pods-NVMImageMaker_Example-dummy.m */,
+				5D466F6889492B1121C0E799310CFB51 /* Pods-NVMImageMaker_Example-frameworks.sh */,
+				69D537D0844A33EDF234184CB939BDDD /* Pods-NVMImageMaker_Example-resources.sh */,
+				101BAE1FD3EF77CBDCBE1BEDE0B79BB1 /* Pods-NVMImageMaker_Example-umbrella.h */,
+				443A0AA8555C8C5A3BCB70F1BF87A013 /* Pods-NVMImageMaker_Example.debug.xcconfig */,
+				74B9C5CA980B0F02FF95BB8EE9FCD0CA /* Pods-NVMImageMaker_Example.release.xcconfig */,
+			);
+			name = "Pods-NVMImageMaker_Example";
+			path = "Target Support Files/Pods-NVMImageMaker_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C293424EF4FB0482610E32CB1FA2EC36 /* Pods-NVMImageMaker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFDE4FBC4AE3988DD642C219E3ECE16 /* Info.plist */,
+				A20C3215EA5A764B502FCBA5F34CCA7A /* Pods-NVMImageMaker_Tests.modulemap */,
+				3F1883EE739C1B4DCE0CA45C3F40E3A0 /* Pods-NVMImageMaker_Tests-acknowledgements.markdown */,
+				E7162CA6CDC4F225FD14FE8E95171505 /* Pods-NVMImageMaker_Tests-acknowledgements.plist */,
+				4EA7EC8412A61E19C3C7B28AA9CD19D8 /* Pods-NVMImageMaker_Tests-dummy.m */,
+				B7AB6C1E8466849ED2CDF2A6F7241427 /* Pods-NVMImageMaker_Tests-frameworks.sh */,
+				9042AC14C3717F4757CB247588E8DD13 /* Pods-NVMImageMaker_Tests-resources.sh */,
+				6B00E7BE44A18F54F315608D1470CE4E /* Pods-NVMImageMaker_Tests-umbrella.h */,
+				72E5C13C4D6E28A5B77A15AD98BDEDA5 /* Pods-NVMImageMaker_Tests.debug.xcconfig */,
+				D21BA4A30A6C5495F82E2DEEE4150B65 /* Pods-NVMImageMaker_Tests.release.xcconfig */,
+			);
+			name = "Pods-NVMImageMaker_Tests";
+			path = "Target Support Files/Pods-NVMImageMaker_Tests";
+			sourceTree = "<group>";
+		};
+		CB4A44A62C2068C4780636BFDCC1A335 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				705F3AF0714142059054760EDA89D04D /* NVMImageMaker.h */,
+				9499DF43317DD01B89CF204B10BBED20 /* NVMImageMaker.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E99A7EBD400D9CE3A38EB3CC8DDD4BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FAFB6BF225DCDFAF267276B6D279C8 /* NVMImageMaker.bundle */,
+				6436D2C0D5D4076C19D0A705B1AF0CD7 /* NVMImageMaker.framework */,
+				80A0C1448267E5AAAB2C38B01C9E83FC /* Pods_NVMImageMaker_Example.framework */,
+				B6EE60F7ADECBBF6AFD9BA0BE89B04A5 /* Pods_NVMImageMaker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		373F399F466BC53FB731590D981EB0AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA709D3DC6CB0A77F60ECB05D8540D9 /* Pods-NVMImageMaker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B1A36C37D5EAD6C855EC41B5DBC468 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABAB6BAAD5E4E1207954397524DC328 /* Pods-NVMImageMaker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F970FAF35CDF9AF1CC939D10BCC46A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E558583BA1B795F2D79B762A02B98E7 /* NVMImageMaker-umbrella.h in Headers */,
+				FC7BD1C8DCB8E5EECF603D51EBB0C8A3 /* NVMImageMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		069A364D95B94CE2AB0A8A4E380DB184 /* NVMImageMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3319FE0FBC9308ED38D881127D254171 /* Build configuration list for PBXNativeTarget "NVMImageMaker" */;
+			buildPhases = (
+				EB9FD6DF3699FD7A2F143626BDB72FDB /* Sources */,
+				8C0A0F85F38A3EBB69843E650FD67C2B /* Frameworks */,
+				E212C473730ECCF5AC1B2E8A5FE49299 /* Resources */,
+				E8F970FAF35CDF9AF1CC939D10BCC46A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941AD0480574A82D5960653B6E24AE08 /* PBXTargetDependency */,
+			);
+			name = NVMImageMaker;
+			productName = NVMImageMaker;
+			productReference = 6436D2C0D5D4076C19D0A705B1AF0CD7 /* NVMImageMaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41D860BC0EEFC48797447D266BC891DF /* Pods-NVMImageMaker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1717B3C224ACC7AA8C2DE66D7CA87912 /* Build configuration list for PBXNativeTarget "Pods-NVMImageMaker_Tests" */;
+			buildPhases = (
+				F8BC7E8BD932DE7A36FF07167643E659 /* Sources */,
+				F78D81B655FF527BC6C9763F09F18893 /* Frameworks */,
+				53B1A36C37D5EAD6C855EC41B5DBC468 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5B44CC4FF8BBA62429B89693A04ECE /* PBXTargetDependency */,
+			);
+			name = "Pods-NVMImageMaker_Tests";
+			productName = "Pods-NVMImageMaker_Tests";
+			productReference = B6EE60F7ADECBBF6AFD9BA0BE89B04A5 /* Pods_NVMImageMaker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46A905CF66DBB5473C491F1168656AA2 /* Pods-NVMImageMaker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208B71A302F8E249649BF7E2409A38B7 /* Build configuration list for PBXNativeTarget "Pods-NVMImageMaker_Example" */;
+			buildPhases = (
+				3B76534AAD54B6E3283F0FEC74C671FA /* Sources */,
+				329642E39123F45523B45BE120E541AA /* Frameworks */,
+				373F399F466BC53FB731590D981EB0AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0132ED6631F3A7275FA4DDE5F7972A6D /* PBXTargetDependency */,
+			);
+			name = "Pods-NVMImageMaker_Example";
+			productName = "Pods-NVMImageMaker_Example";
+			productReference = 80A0C1448267E5AAAB2C38B01C9E83FC /* Pods_NVMImageMaker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFE42997DAEBFAD1EC0208059FCEA864 /* NVMImageMaker-NVMImageMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5D8C4F629DCA7F61D2DE53A77B85C3 /* Build configuration list for PBXNativeTarget "NVMImageMaker-NVMImageMaker" */;
+			buildPhases = (
+				5DA2030E1A4CFD5FDDDD0A420F9D0899 /* Sources */,
+				2544721B95213DDC855B7F93DABC6E17 /* Frameworks */,
+				B7D1308A0D92BC63E9CFE7C865CC7213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NVMImageMaker-NVMImageMaker";
+			productName = "NVMImageMaker-NVMImageMaker";
+			productReference = B2FAFB6BF225DCDFAF267276B6D279C8 /* NVMImageMaker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E99A7EBD400D9CE3A38EB3CC8DDD4BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069A364D95B94CE2AB0A8A4E380DB184 /* NVMImageMaker */,
+				BFE42997DAEBFAD1EC0208059FCEA864 /* NVMImageMaker-NVMImageMaker */,
+				46A905CF66DBB5473C491F1168656AA2 /* Pods-NVMImageMaker_Example */,
+				41D860BC0EEFC48797447D266BC891DF /* Pods-NVMImageMaker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D1308A0D92BC63E9CFE7C865CC7213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212C473730ECCF5AC1B2E8A5FE49299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47687DE70276D45DFC54DE4A93918F /* NVMImageMaker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B76534AAD54B6E3283F0FEC74C671FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03D29D6A7A78196DA4D5C471676AFFC /* Pods-NVMImageMaker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA2030E1A4CFD5FDDDD0A420F9D0899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9FD6DF3699FD7A2F143626BDB72FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505AAC0CC54A22FEF1C005373F33CC5 /* NVMImageMaker-dummy.m in Sources */,
+				2110808CF68F357815E6CBB47D10CC43 /* NVMImageMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BC7E8BD932DE7A36FF07167643E659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E165E0350DB61BF39848912B58CB88 /* Pods-NVMImageMaker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0132ED6631F3A7275FA4DDE5F7972A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVMImageMaker;
+			target = 069A364D95B94CE2AB0A8A4E380DB184 /* NVMImageMaker */;
+			targetProxy = 57E756EED39B13D48C2E3AEE775A69AE /* PBXContainerItemProxy */;
+		};
+		941AD0480574A82D5960653B6E24AE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NVMImageMaker-NVMImageMaker";
+			target = BFE42997DAEBFAD1EC0208059FCEA864 /* NVMImageMaker-NVMImageMaker */;
+			targetProxy = 1B36DFDF4375082ED8A25F2A011CC3D5 /* PBXContainerItemProxy */;
+		};
+		DD5B44CC4FF8BBA62429B89693A04ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVMImageMaker;
+			target = 069A364D95B94CE2AB0A8A4E380DB184 /* NVMImageMaker */;
+			targetProxy = B1784D7B2914DF9B1B9B4936403C91B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0F39D40EF7A6CB126B47C30A64E05E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E5C13C4D6E28A5B77A15AD98BDEDA5 /* Pods-NVMImageMaker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NVMImageMaker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NVMImageMaker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FDBA82737F57D2F58A462E9F8745653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF6C54340B3CB6B7EA2BF68A766FBD3 /* NVMImageMaker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NVMImageMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5362E2DB4CCF93067DEA26AB325CEF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF6C54340B3CB6B7EA2BF68A766FBD3 /* NVMImageMaker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVMImageMaker/NVMImageMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVMImageMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVMImageMaker/NVMImageMaker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NVMImageMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		916AE9DF313ACFF3CF92D44A738931F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF6C54340B3CB6B7EA2BF68A766FBD3 /* NVMImageMaker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVMImageMaker/NVMImageMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVMImageMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVMImageMaker/NVMImageMaker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NVMImageMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C489EE3344988838C88A22D51BE150F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B9C5CA980B0F02FF95BB8EE9FCD0CA /* Pods-NVMImageMaker_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NVMImageMaker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NVMImageMaker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D255FCAC7B8E1D0DF2AD81F86F6D5D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443A0AA8555C8C5A3BCB70F1BF87A013 /* Pods-NVMImageMaker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NVMImageMaker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NVMImageMaker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0F546B32F93E86C42A8DBE849A47975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21BA4A30A6C5495F82E2DEEE4150B65 /* Pods-NVMImageMaker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NVMImageMaker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NVMImageMaker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF94A769681B98B6142210616648D14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF6C54340B3CB6B7EA2BF68A766FBD3 /* NVMImageMaker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NVMImageMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1717B3C224ACC7AA8C2DE66D7CA87912 /* Build configuration list for PBXNativeTarget "Pods-NVMImageMaker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F39D40EF7A6CB126B47C30A64E05E0B /* Debug */,
+				F0F546B32F93E86C42A8DBE849A47975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208B71A302F8E249649BF7E2409A38B7 /* Build configuration list for PBXNativeTarget "Pods-NVMImageMaker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D255FCAC7B8E1D0DF2AD81F86F6D5D45 /* Debug */,
+				C489EE3344988838C88A22D51BE150F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5D8C4F629DCA7F61D2DE53A77B85C3 /* Build configuration list for PBXNativeTarget "NVMImageMaker-NVMImageMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94A769681B98B6142210616648D14B /* Debug */,
+				2FDBA82737F57D2F58A462E9F8745653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3319FE0FBC9308ED38D881127D254171 /* Build configuration list for PBXNativeTarget "NVMImageMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5362E2DB4CCF93067DEA26AB325CEF76 /* Debug */,
+				916AE9DF313ACFF3CF92D44A738931F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

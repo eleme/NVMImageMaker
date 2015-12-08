@@ -1,0 +1,6 @@
+framework module NVMImageMaker {
+  umbrella header "NVMImageMaker-umbrella.h"
+
+  export *
+  module * { export * }
+}

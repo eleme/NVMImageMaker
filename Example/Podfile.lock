@@ -1,0 +1,14 @@
+PODS:
+  - NVMImageMaker (0.1.0)
+
+DEPENDENCIES:
+  - NVMImageMaker (from `../`)
+
+EXTERNAL SOURCES:
+  NVMImageMaker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NVMImageMaker: e2d8b269007b32446508ab9e10deccf2fd152b6c
+
+COCOAPODS: 0.39.0
