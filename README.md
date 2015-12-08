@@ -1,6 +1,6 @@
 # NVMImageMaker
 
-[![CI Status](http://img.shields.io/travis/axl411/NVMImageMaker.svg?style=flat)](https://travis-ci.org/axl411/NVMImageMaker)
+[![CI Status](http://img.shields.io/travis/eleme/NVMImageMaker.svg?style=flat)](https://travis-ci.org/eleme/NVMImageMaker)
 [![Version](https://img.shields.io/cocoapods/v/NVMImageMaker.svg?style=flat)](http://cocoapods.org/pods/NVMImageMaker)
 [![License](https://img.shields.io/cocoapods/l/NVMImageMaker.svg?style=flat)](http://cocoapods.org/pods/NVMImageMaker)
 [![Platform](https://img.shields.io/cocoapods/p/NVMImageMaker.svg?style=flat)](http://cocoapods.org/pods/NVMImageMaker)
