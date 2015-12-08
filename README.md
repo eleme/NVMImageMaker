@@ -30,7 +30,7 @@ pod "NVMImageMaker"
 
 ## Author
 
-Chao Gu, chao.gush@ele.me
+axl411, axl411511@live.com
 
 ## License
 
