@@ -7,7 +7,7 @@
 
 ## Usage
 
-API for chaining image drawing codes:
+Use `nvm_beginImage` to start, apply any supported attributes in your drawing chain, just call `make` in the end to get an image:
 
 ```
 UIImage *image = nvm_beginImage(size).fillColor(fillColor).borderColor(borderColor).cornerRadius(20).opacity(0.5).make;
