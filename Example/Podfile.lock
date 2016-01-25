@@ -1,14 +1,17 @@
 PODS:
+  - FBSnapshotTestCase/Core (2.0.7)
   - NVMImageMaker (0.1.0)
 
 DEPENDENCIES:
+  - FBSnapshotTestCase/Core
   - NVMImageMaker (from `../`)
 
 EXTERNAL SOURCES:
   NVMImageMaker:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  NVMImageMaker: e2d8b269007b32446508ab9e10deccf2fd152b6c
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  NVMImageMaker: 873022059e4078b6a8300a4f4d6ce39d725824ea
 
-COCOAPODS: 0.39.0
+COCOAPODS: 0.38.2

@@ -6,24 +6,30 @@
 //  Copyright (c) 2015 axl411. All rights reserved.
 //
 
+#import <NVMImageMaker/NVMImageMaker.h>
+#import <FBSnapshotTestCase/FBSnapshotTestCase.h>
+
 @import XCTest;
 
-@interface Tests : XCTestCase
+@interface Tests : FBSnapshotTestCase
 
 @end
 
 @implementation Tests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+- (void)setUp {
+  [super setUp];
+  self.recordMode = NO;
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)testImage {
+  CGSize size = CGSizeMake(200, 300);
+  UIColor *fillColor = [UIColor yellowColor];
+  UIColor *borderColor = [UIColor blackColor];
+  UIImage *image = nvm_beginImage(size).fillColor(fillColor).borderColor(borderColor).cornerRadius(20.).opacity(0.5).make;
+  UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+  self.usesDrawViewHierarchyInRect = YES;
+  FBSnapshotVerifyView(imageView, nil);
 }
 
 @end
