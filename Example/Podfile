@@ -7,6 +7,5 @@ end
 
 target 'NVMImageMaker_Tests', :exclusive => true do
   pod "NVMImageMaker", :path => "../"
-
-  
+  pod "FBSnapshotTestCase/Core"
 end
