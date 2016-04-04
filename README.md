@@ -10,7 +10,12 @@
 Use `nvm_beginImage` to start, apply any supported attributes in your drawing chain, just call `make` in the end to get an image:
 
 ```
-UIImage *image = nvm_beginImage(size).fillColor(fillColor).borderColor(borderColor).cornerRadius(20).opacity(0.5).make;
+UIImage *image = nvm_beginImage(size)
+                     .fillColor(fillColor)
+                     .borderColor(borderColor)
+                     .cornerRadius(20)
+                     .opacity(0.5)
+                     .make;
 ```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
