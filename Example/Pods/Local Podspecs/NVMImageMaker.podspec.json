@@ -1,6 +1,6 @@
 {
   "name": "NVMImageMaker",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "API for chaining image drawing codes.",
   "description": "Chaining your image drawing codes together in Objective-C.",
   "homepage": "https://github.com/eleme/NVMImageMaker",
@@ -10,16 +10,23 @@
   },
   "source": {
     "git": "https://github.com/eleme/NVMImageMaker.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "NVMImageMaker": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Example/Tests/*.{h,m}",
+      "dependencies": {
+        "FBSnapshotTestCase/Core": [
+
+        ]
+      }
+    }
+  ]
 }

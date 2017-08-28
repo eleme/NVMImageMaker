@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5406388AC9D165A66E99F88C /* Pods_NVMImageMaker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE46F9AEFA5C83DDAAD1723 /* Pods_NVMImageMaker_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A9D2CEB9B8336D1D0B544EAE /* Pods_NVMImageMaker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61D7A384B29218BFB69E9C9 /* Pods_NVMImageMaker_Example.framework */; };
 		ADAC97E41C17279F0025D867 /* NVMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAC97E31C17279F0025D867 /* NVMImageViewController.m */; };
-		D159EAD177B857C25A7BE129 /* Pods_NVMImageMaker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BD59369A700469B193FB90 /* Pods_NVMImageMaker_Tests.framework */; };
-		D8B446A806D5A5FA88EA85DF /* Pods_NVMImageMaker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AABFB86E05BB91A0FF47B3 /* Pods_NVMImageMaker_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		303C79F10665A3135E4F973A /* Pods-NVMImageMaker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		35BD59369A700469B193FB90 /* Pods_NVMImageMaker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVMImageMaker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE46F9AEFA5C83DDAAD1723 /* Pods_NVMImageMaker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVMImageMaker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F7A7A597B198C7A2569154 /* Pods-NVMImageMaker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1B5C73959CCA113013077E /* Pods-NVMImageMaker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NVMImageMaker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVMImageMaker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,16 +59,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6A734C56159F94531CB5EC79 /* Pods-NVMImageMaker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD86AA8FD5CBAF03FDA9B18 /* Pods-NVMImageMaker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		75A5186DEAC5A1AAAE4D4602 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		775C610C23BD8C399DBA475D /* Pods-NVMImageMaker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		83AABFB86E05BB91A0FF47B3 /* Pods_NVMImageMaker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVMImageMaker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ADAC97E21C17279F0025D867 /* NVMImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVMImageViewController.h; sourceTree = "<group>"; };
 		ADAC97E31C17279F0025D867 /* NVMImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVMImageViewController.m; sourceTree = "<group>"; };
 		B38F6BEB21DD4B806A070A27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BB017890E764B0D96CEAC072 /* Pods-NVMImageMaker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D61D7A384B29218BFB69E9C9 /* Pods_NVMImageMaker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVMImageMaker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C4DE39D1C1DA2619322A8 /* NVMImageMaker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NVMImageMaker.podspec; path = ../NVMImageMaker.podspec; sourceTree = "<group>"; };
-		F19D26394D5C83D1CEB2E271 /* Pods-NVMImageMaker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVMImageMaker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D8B446A806D5A5FA88EA85DF /* Pods_NVMImageMaker_Example.framework in Frameworks */,
+				A9D2CEB9B8336D1D0B544EAE /* Pods_NVMImageMaker_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D159EAD177B857C25A7BE129 /* Pods_NVMImageMaker_Tests.framework in Frameworks */,
+				5406388AC9D165A66E99F88C /* Pods_NVMImageMaker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				8550E1A45AB59C1405E4CAC0 /* Pods */,
+				66CFEA68D2E5BF165B48EB0B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,8 +124,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				83AABFB86E05BB91A0FF47B3 /* Pods_NVMImageMaker_Example.framework */,
-				35BD59369A700469B193FB90 /* Pods_NVMImageMaker_Tests.framework */,
+				D61D7A384B29218BFB69E9C9 /* Pods_NVMImageMaker_Example.framework */,
+				2CE46F9AEFA5C83DDAAD1723 /* Pods_NVMImageMaker_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,13 +187,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8550E1A45AB59C1405E4CAC0 /* Pods */ = {
+		66CFEA68D2E5BF165B48EB0B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				303C79F10665A3135E4F973A /* Pods-NVMImageMaker_Example.debug.xcconfig */,
-				775C610C23BD8C399DBA475D /* Pods-NVMImageMaker_Example.release.xcconfig */,
-				BB017890E764B0D96CEAC072 /* Pods-NVMImageMaker_Tests.debug.xcconfig */,
-				F19D26394D5C83D1CEB2E271 /* Pods-NVMImageMaker_Tests.release.xcconfig */,
+				50F7A7A597B198C7A2569154 /* Pods-NVMImageMaker_Example.debug.xcconfig */,
+				6CD86AA8FD5CBAF03FDA9B18 /* Pods-NVMImageMaker_Example.release.xcconfig */,
+				6A734C56159F94531CB5EC79 /* Pods-NVMImageMaker_Tests.debug.xcconfig */,
+				5A1B5C73959CCA113013077E /* Pods-NVMImageMaker_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -205,12 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "NVMImageMaker_Example" */;
 			buildPhases = (
-				13826088E0DD2A18392EAE18 /* Check Pods Manifest.lock */,
+				363866CB4033CE7984F8EEC6 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8BAB12EB568E166B1D9013B2 /* Embed Pods Frameworks */,
-				CF096F77DA1BF0991F9C98DF /* Copy Pods Resources */,
+				D9082DBCF88AA4CA1CD60E32 /* [CP] Embed Pods Frameworks */,
+				5B87DDCE7D323E8277CE3EFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,12 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "NVMImageMaker_Tests" */;
 			buildPhases = (
-				FC36DB07D3E797F5C3F651C7 /* Check Pods Manifest.lock */,
+				45946277136865A8F553FF5A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				257D8C9941959EFA539B3680 /* Embed Pods Frameworks */,
-				834224BCDD07F310E724AF44 /* Copy Pods Resources */,
+				992200E2EF87E3802CC9BAF1 /* [CP] Embed Pods Frameworks */,
+				EE7301B9CCDFC3BE1AC99E86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,74 +298,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13826088E0DD2A18392EAE18 /* Check Pods Manifest.lock */ = {
+		363866CB4033CE7984F8EEC6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVMImageMaker_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		257D8C9941959EFA539B3680 /* Embed Pods Frameworks */ = {
+		45946277136865A8F553FF5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVMImageMaker_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		834224BCDD07F310E724AF44 /* Copy Pods Resources */ = {
+		5B87DDCE7D323E8277CE3EFB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8BAB12EB568E166B1D9013B2 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF096F77DA1BF0991F9C98DF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,19 +349,55 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC36DB07D3E797F5C3F651C7 /* Check Pods Manifest.lock */ = {
+		992200E2EF87E3802CC9BAF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9082DBCF88AA4CA1CD60E32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVMImageMaker/NVMImageMaker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVMImageMaker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Example/Pods-NVMImageMaker_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7301B9CCDFC3BE1AC99E86 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NVMImageMaker_Tests/Pods-NVMImageMaker_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -472,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -514,7 +526,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 303C79F10665A3135E4F973A /* Pods-NVMImageMaker_Example.debug.xcconfig */;
+			baseConfigurationReference = 50F7A7A597B198C7A2569154 /* Pods-NVMImageMaker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -529,7 +541,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 775C610C23BD8C399DBA475D /* Pods-NVMImageMaker_Example.release.xcconfig */;
+			baseConfigurationReference = 6CD86AA8FD5CBAF03FDA9B18 /* Pods-NVMImageMaker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -544,7 +556,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB017890E764B0D96CEAC072 /* Pods-NVMImageMaker_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6A734C56159F94531CB5EC79 /* Pods-NVMImageMaker_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -567,7 +579,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F19D26394D5C83D1CEB2E271 /* Pods-NVMImageMaker_Tests.release.xcconfig */;
+			baseConfigurationReference = 5A1B5C73959CCA113013077E /* Pods-NVMImageMaker_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

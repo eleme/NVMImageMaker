@@ -1,11 +1,13 @@
 source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
+platform :ios, '8.0'
 
-target 'NVMImageMaker_Example', :exclusive => true do
+target 'NVMImageMaker_Example' do
   pod "NVMImageMaker", :path => "../"
-end
 
-target 'NVMImageMaker_Tests', :exclusive => true do
-  pod "NVMImageMaker", :path => "../"
-  pod "FBSnapshotTestCase/Core"
+  target 'NVMImageMaker_Tests' do
+    inherit! :search_paths
+    pod "FBSnapshotTestCase/Core"
+  end
 end

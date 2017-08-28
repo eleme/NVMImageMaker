@@ -6,7 +6,7 @@
 //  Copyright © 2015 Rajax Network Technology Co., Ltd. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NVMImageMaker : NSObject
 
